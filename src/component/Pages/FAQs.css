@@ -1,0 +1,13 @@
+.main_faqs{
+    padding: 5rem;
+}
+.faq_head{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+@media screen  and (max-width:500px){
+    .main_faqs{
+    padding: 5rem 2rem;
+    }
+    
+}
