@@ -6,7 +6,7 @@ const Steps = () => {
   return (
     <div className='steps'>
        <Stepscomp/>
-       {/* <SingleComponent/> */}
+       <SingleComponent/>
     </div>
   )
 }

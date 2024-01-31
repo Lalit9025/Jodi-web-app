@@ -9,12 +9,14 @@ import nature from './Images/nature.png'
 import shoes from './Images/shoes.png'
 import travel from './Images/travel.png'
 import wedding from './Images/wedding.png'
+import Modal from './Modal';
 
 const CARDS = 7;
 const MAX_VISIBILITY = 3;
 
 const SingleComponent = () => {
  const [active, setActive] = useState(2);
+ const [open,setOpen] = useState(false)
  const count = CARDS;
  const categories = [
  {
@@ -49,7 +51,11 @@ const SingleComponent = () => {
  
  const Card = ({img, content}) => (
     <div className='card' style={{ backgroundImage: `url(${img})`, backgroundSize: "cover" }}>
-      <div>{content}</div>
+     <div className="card_start">
+        <div className='card_content'>{content}</div>
+        <div className='card_btn' onClick={()=>setOpen(true)}>start</div>
+        
+     </div>
     </div>
  );
 
@@ -76,6 +82,7 @@ const SingleComponent = () => {
 
         {active < count - 1 && <button className='nav right' onClick={() => setActive(i => i + 1)}></button>}
     </div>
+    <div className='mm_modal'>{open && <Modal open={open} setOpen={setOpen}/>}</div>
     </div>
  );
 };
