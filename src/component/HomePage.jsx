@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className='home_page'>
         <div className="home_page_content">
-            <h2 className='home_page_heading'>Jodi.com</h2>
+            <h2 className='home_page_heading'>Jodi</h2>
             <span className='home_page_text'>Jodi is a lifestyle investment management app that enables Gen X, Y and Z couples to plan, save, invest and spend in the most rewarding way to enjoy life, debt-free.</span>
             <Link activeClass="active" to="steps" spy={true} smooth={true} offset={0} duration={500}>
             <div >
