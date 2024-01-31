@@ -51,9 +51,10 @@ const Modal2 = ({openm,setOpenm,setOpen}) => {
           <div className='you_invest'>
             <span className='y_i'>You get :</span>
             <span className="ruppes">Rs 100000</span>
-            <span className="in_month">Jodi adds 5%</span>
+            <span className="in_month">Jodi adds 8%</span>
           </div>
         </div>
+        <div className='brand_con'>Brand Contribution : 12%</div>
         <div className="sm_btn"><button className="button-31">Save this goal</button></div>
         <div className="t_c">T&C applied</div>
     </div>
