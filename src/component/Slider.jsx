@@ -20,7 +20,7 @@ const marks = [
 
 export default function CustomMarks() {
   const [val, setVal] = React.useState(MIN);
-  const [open,setOpen] = React.useState(true)
+  const [open,setOpen] = React.useState(false)
   const handleChange = (_, newValue) => {
     setVal(newValue);
   };
