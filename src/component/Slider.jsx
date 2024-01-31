@@ -20,7 +20,7 @@ const marks = [
 
 export default function CustomMarks() {
   const [val, setVal] = React.useState(MIN);
-  const [open,setOpen] = React.useState(false)
+  const [open,setOpen] = React.useState(true)
   const handleChange = (_, newValue) => {
     setVal(newValue);
   };
@@ -53,7 +53,8 @@ export default function CustomMarks() {
             </div>
       </div>
       <div className='slider_d3'>
-      <Button variant="contained" size="large" onClick={()=>setOpen(true)}>
+      <Button variant="contained" size="large" onClick={()=>{setOpen(true);
+      console.log('clicled');}}>
           Lets Start
         </Button>
       </div>

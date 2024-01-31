@@ -1,5 +1,5 @@
 /* Add a new class for the overlay */
-.overlay {
+.overlay_modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
     z-index: 999; /* Set a z-index lower than the modal to ensure it's behind the modal */
   }
   
-  .modal {
+  .modal_body {
     position: fixed;
     top: 50%;
     left: 50%;

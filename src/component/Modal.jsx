@@ -19,8 +19,8 @@ const Modal = ({open,setOpen}) => {
       }, []);
   return (
     <>
-       <div className="overlay"></div>
-      <div className='modal'>
+       <div className="overlay_modal"></div>
+      <div className='modal_body'>
         <div className='modal_logo'>
             <span className="modal_title">Multiple</span>
             <IoIosCloseCircleOutline size={30} onClick={()=>setOpen(false)}/>
