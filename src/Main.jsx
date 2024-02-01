@@ -17,8 +17,9 @@ const Main = () => {
         <ImageCarousel/>
         </Element>
         <Steps />
+        <SliderComp/>
         <Post/>
-      <SliderComp/>
+     
 
     </>
   )

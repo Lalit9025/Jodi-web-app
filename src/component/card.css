@@ -23,7 +23,7 @@ font-size: 60px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 10rem;
+margin-bottom: 5rem;
 }
 .carousel {
    display: flex;
@@ -44,10 +44,11 @@ margin-bottom: 10rem;
 }
 @media screen and (max-width:650px){
    .single_com{
-      padding-bottom: 2rem;
+      padding-bottom: 0rem;
    }
    .single_heading{
-      margin: 2rem;
+      margin: 1rem;
+      font-size: 40px;
    }
    .carousel{
       width: 10rem;

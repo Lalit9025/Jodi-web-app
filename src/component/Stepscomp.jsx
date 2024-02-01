@@ -50,7 +50,7 @@ const Stepscomp = () => {
 
   return (
     <div className="steps_content">
-      <span className="steps_content_heading">Jodi in 5 steps</span>
+      <span className="steps_content_heading">Start saving in 5 steps</span>
       <div className="steps_content_step">
         <div className="stepcomp_block">
           {[1, 2, 3, 4, 5].map((index) => (

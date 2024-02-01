@@ -41,10 +41,11 @@ padding: 1rem;
         align-items: center;
         padding: 0rem;
         background:white;
+        height: auto;
     }
 
 }
-.left{
+.leftp{
   display: flex;
   flex-direction: column;
   background-color: #000;
@@ -124,7 +125,7 @@ line-height: normal;
     width: 35.2px;
 }
 @media screen and (max-width:900px){
-    .left{
+    .leftp{
         width: 20rem;
         padding: 2rem 1rem;
       }

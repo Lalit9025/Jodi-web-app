@@ -2,10 +2,11 @@
     /* position: fixed; */
     height: 5rem;
     width: 100%;
-    background-color: white;
+    /* background-color: #ffffff; */
+    background-color: #141313;
     display: flex;
     justify-content: space-between;
-    color: black;
+    color: white;
     align-items: center;
     border-bottom:2px solid rgb(178, 160, 160);
 }
@@ -37,7 +38,7 @@
 .navbar_items_element{
     text-decoration: none;
     padding: 15px;
-    color: black;
+    color: white;
     
 }
 .navbar_items{
@@ -53,7 +54,7 @@
     flex-direction: column;
     font-size: 20px;
     z-index: 10000;
-    background-color: white;
+    background-color: #141313;
     width: 100vw;
     align-items: center;
 }

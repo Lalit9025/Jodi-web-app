@@ -10,6 +10,7 @@ import './Blogs.css'
 const Blogs = () => {
   return (
     <div className='blogs'>
+        <div className='blogs_head'>Blogs</div>
         <Blogscomp 
           img={b1} 
           title='Decoding Money Mysteries: Cracking the Code to Joint Financial Bliss

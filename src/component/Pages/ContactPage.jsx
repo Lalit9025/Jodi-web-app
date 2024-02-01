@@ -2,6 +2,8 @@ import React from 'react'
 import './ContactPage.css'
 import { FiPhoneCall } from "react-icons/fi";
 import{FaLinkedin,FaGithub,FaInstagram,FaFacebook} from"react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import { IoLocationOutline } from "react-icons/io5";
 
 const ContactPage = () => {
   return (
@@ -11,7 +13,7 @@ const ContactPage = () => {
         <span className="contact_heading_des">Any question or remarks? Just write us a message!</span>
       </div>
       <div className="contact_main_div">
-        <div className="left">
+        <div className="leftp">
           <div className='left_upper'>
             <span className="contact_infor">Contact Information</span>
             <span className="contact_infor_des">Say something to start a live chat!</span>
@@ -22,11 +24,11 @@ const ContactPage = () => {
               <span className="icon_detail">+917780285794</span>
             </div>
             <div className='icon_ex'>
-              <span className='icon_co'><FiPhoneCall  color='white'/></span>
+              <span className='icon_co'><CiMail  color='white'/></span>
               <span className="icon_detail">mohdasrarahmed785@gmail.com</span>
             </div>
             <div className='icon_ex'>
-              <span className='icon_co'><FiPhoneCall  color='white'/></span>
+              <span className='icon_co'><IoLocationOutline  color='white'/></span>
               <span className="icon_detail">CCHV+G26, Rd Number 3, Venkateshwara Nagar, Sri Nagar Colony, Aurora Colony, Banjara Hills, Hyderabad, Telangana 500073</span>
             </div>
           </div>
