@@ -5,6 +5,7 @@ import SliderComp from './component/SliderComp'
 import { Element } from 'react-scroll'
 import ImageCarousel from './component/ImageCarousel'
 import ImageCarousel2 from './component/ImageCarousel2'
+import Post from './component/Post'
 
 
 const Main = () => {
@@ -16,6 +17,7 @@ const Main = () => {
         <ImageCarousel/>
         </Element>
         <Steps />
+        <Post/>
       <SliderComp/>
 
     </>

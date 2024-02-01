@@ -63,7 +63,7 @@ const SingleComponent = () => {
     <div className='single_com'>
      <span className='single_heading'>Categories</span>
      <div className='carousel'>
-        {active > 0 && <button className='nav left' onClick={() => setActive(i => i - 1)}></button>}
+        {active > 0 && <div className='nav left' onClick={() => setActive(i => i - 1)}></div>}
 
          {categories.map((category, i) => (
             <div key ={i} className='card-container' style={{
@@ -80,7 +80,7 @@ const SingleComponent = () => {
             </div>
          ))}
 
-        {active < count - 1 && <button className='nav right' onClick={() => setActive(i => i + 1)}></button>}
+        {active < count - 1 && <div className='nav right' onClick={() => setActive(i => i + 1)}></div>}
     </div>
     <div className='mm_modal'>{open && <Modal open={open} setOpen={setOpen}/>}</div>
     </div>
