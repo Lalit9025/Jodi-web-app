@@ -37,7 +37,7 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='navbar_div'>
         <div className='nav_up'><Link to={'/'} className='navbar_logo'>
-          Jodi.com
+          Jodi
         </Link>
 
         <div className='navbar_items'>

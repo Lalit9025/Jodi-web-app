@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import image1 from './Images/i1.jpg';
-import image2 from './Images/i2.jpg';
-import image3 from './Images/i3.jpg';
+// import image1 from './Images/Group 1.png';
+// import image2 from './Images/Group 2.png';
+// import image3 from './Images/Group 3.png';
+import image2 from './Images/i1.jpg';
+import image3 from './Images/i2.jpg';
+import image1 from './Images/i3.jpg';
 
 import './ImageCarousel.css'; // CSS file for styling
 

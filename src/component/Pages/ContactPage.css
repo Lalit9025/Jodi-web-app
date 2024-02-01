@@ -167,6 +167,15 @@ line-height: normal;
     flex-direction: column;
     margin: 0.5rem 1rem;
 }
+@media (max-width:450px) {
+    .first_c{
+        flex-direction: column;
+        margin-bottom: 0rem;
+    }
+    .btn{
+        margin-top: 3rem;
+    }
+}
 .first_name{
     color: #8D8D8D;
 font-family: Poppins;

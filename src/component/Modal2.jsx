@@ -14,11 +14,11 @@ const Modal2 = ({openm,setOpenm,setOpen}) => {
       <div className="overlay"></div>
        <div className='modal2'>
         <div className="modal2_head">           
-            <FaArrowLeft size={25} onClick={()=>
+            <FaArrowLeft size={25} className='modal2_head_title' onClick={()=>
                 setOpenm(false)
             }/>
             <span className='jodi_head'>Jodi</span>
-            <IoIosCloseCircleOutline size={25} onClick={()=>{
+            <IoIosCloseCircleOutline className='modal2_head_title' size={30} onClick={()=>{
               setOpenm(false);
               setOpen(false)
             }

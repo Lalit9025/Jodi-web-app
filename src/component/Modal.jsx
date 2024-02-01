@@ -23,7 +23,7 @@ const Modal = ({open,setOpen}) => {
       <div className='modal_body'>
         <div className='modal_logo'>
             <span className="modal_title">Multiple</span>
-            <IoIosCloseCircleOutline size={30} onClick={()=>setOpen(false)}/>
+            <IoIosCloseCircleOutline size={35} className='modal_title_btn' onClick={()=>setOpen(false)}/>
         </div>
         <div className="modal_head_text">
             Kickstart your multiple journey - let's  roll !

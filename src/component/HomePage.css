@@ -33,6 +33,7 @@ line-height: 72px; /* 101.186% */
     .home_page_content{
         width: auto ;
         padding: 0 1rem;
+        margin-top: 5rem;
     }
     .home_page_heading{
         font-size: 50px;

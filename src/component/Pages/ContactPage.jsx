@@ -31,10 +31,10 @@ const ContactPage = () => {
             </div>
           </div>
           <div className="socialmediaLinks" >
-                        <a href="https://www.linkedin.com/in/lalit-chouhan-438b64228/" target="_blank" className="icons"><FaLinkedin/></a>
-                        <a href="https://github.com/Lalit9025" target="_blank"className="icons"><FaGithub/></a>
-                        <a href="https://www.instagram.com/laliit_07/" target="_blank"className="icons"><FaInstagram/></a>
-                        <a href="https://www.facebook.com/profile.php?id=100068757227439" target="_blank"className="icons"><FaFacebook/></a>                    
+                        <a href="" target="_blank" className="icons"><FaLinkedin/></a>
+                        <a href="" target="_blank"className="icons"><FaGithub/></a>
+                        <a href="" target="_blank"className="icons"><FaInstagram/></a>
+                        <a href="" target="_blank"className="icons"><FaFacebook/></a>                    
                       </div>
           
 

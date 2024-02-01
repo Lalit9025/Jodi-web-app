@@ -76,6 +76,9 @@
         align-items: center;
         background-color: white;
     }
+    .navbar_logo{
+        font-size: 28px;
+    }
     
     
 }
