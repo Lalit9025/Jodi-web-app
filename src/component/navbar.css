@@ -52,6 +52,10 @@
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    z-index: 10000;
+    background-color: white;
+    width: 100vw;
+    align-items: center;
 }
 .nav_down{
     display: none;

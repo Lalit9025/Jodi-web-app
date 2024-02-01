@@ -1,7 +1,7 @@
 /* ImageCarousel.css */
 .image-carousel {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     overflow: hidden;
   }
   
@@ -61,7 +61,7 @@
   }
   @media (max-width: 768px) {
     .head_car{
-        font-size: 60px;
+        font-size: 50px;
     }
       .des_car{
         font-size: 20px;

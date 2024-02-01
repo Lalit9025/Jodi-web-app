@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import image1 from './Images/cloth.png';
-import image2 from './Images/shoes.png';
+// import image1 from './Images/cloth.png';
+// import image2 from './Images/shoes.png';
+import image1 from './Images/s1.jpg';
+import image2 from './Images/s2.jpg';
+import image3 from './Images/s3.jpg';
+import image4 from './Images/s4.jpg';
+
 import './ImageCarousel.css'; // CSS file for styling
 
 const ImageCarousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [image1, image2];
+  const images = [image1, image2,image3,image4];
 
 
   useEffect(() => {
