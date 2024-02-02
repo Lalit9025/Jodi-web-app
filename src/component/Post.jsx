@@ -19,7 +19,7 @@ const Post = () => {
         />
          <PostComponent 
           heading ="Set it and forget it" 
-          des ="ASchedule your auto-investment plan once, and
+          des ="Schedule your auto-investment plan once, and
           witness your dreams come to life. Sit back, relax
           and enjoy the monthly returns!"
           img = {p2}

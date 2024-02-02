@@ -10,7 +10,7 @@ const About = () => {
       <Aboutcomp
        img={about1} 
        heading ="About us"
-       des="Jodi is a lifestyle investment management app that helps couples / partnersto plan, save, invest and spend in the most rewarding way toenjoy life, debt free where couples contributes money on their spendings for opting better financial goals for future needs."
+       des="Jodi is a lifestyle investment management app that helps couples/partners to plan, save, invest and spend in the most rewarding way to enjoy life, debt free where couples contributes money on their spendings for opting better financial goals for future needs."
       />
        <Aboutcomp
        img={about2} 

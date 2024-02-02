@@ -33,10 +33,9 @@ const ContactPage = () => {
             </div>
           </div>
           <div className="socialmediaLinks" >
-                        <a href="" target="_blank" className="icons"><FaLinkedin/></a>
-                        <a href="" target="_blank"className="icons"><FaGithub/></a>
-                        <a href="" target="_blank"className="icons"><FaInstagram/></a>
-                        <a href="" target="_blank"className="icons"><FaFacebook/></a>                    
+                        <a href="https://www.linkedin.com/in/mohdasrar687/" target="_blank" className="icons"><FaLinkedin size={25}/></a>
+                        <a href="" target="_blank"className="icons"><FaGithub size={25}/></a>
+                        <a href="" target="_blank"className="icons"><FaFacebook size={25}/></a>                    
                       </div>
           
 
